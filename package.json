@@ -1,6 +1,7 @@
 {
   "name": "eleven-solutions",
   "private": true,
+  "homepage": "https://subalbarik.github.io/Eleven_solution/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
