@@ -1,0 +1,94 @@
+.courses-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.courses-container input {
+  padding: 8px;
+  width: calc(100% - 90px);
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.courses-container button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.add-btn {
+  background-color: #4CAF50;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.save-btn {
+  background-color: #007bff;
+}
+
+.cancel-btn {
+  background-color: gray;
+}
+
+.edit-btn {
+  background-color: #ff9800;
+}
+
+.delete-btn {
+  background-color: crimson;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn:hover {
+  background-color: #555;
+}
+
+.edit-btn:hover {
+  background-color: #e68a00;
+}
+
+.delete-btn:hover {
+  background-color: #b30000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.courses-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.course-name {
+  color: #009688;
+  font-weight: 600;
+  flex-grow: 1;
+}
